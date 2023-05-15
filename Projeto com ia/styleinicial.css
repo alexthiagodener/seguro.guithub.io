@@ -1,0 +1,98 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+header {
+    background: linear-gradient(to right, #66c3d3, #a533b4);
+    color: white;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #3498db;
+  }
+  .highlight {
+    font-weight: bold;
+    color: #f00;
+  }
+  p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+  
+  .copy {
+    color: #eeea0f;
+    text-align: center;
+    padding: 1px;
+  }
+  .logo {
+    float: right;
+  }
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  details[open] summary {
+    color: #0077FF;
+  }
+  
+  details {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  button {
+    background-color: #4CAF50; /* cor de fundo do botão */
+    border: none; /* remover a borda do botão */
+    color: white; /* cor do texto do botão */
+    padding: 15px 32px; /* espaçamento interno do botão */
+    text-align: center; /* alinhar o texto centralizado */
+    text-decoration: none; /* remover a decoração do texto */
+    display: inline-block; /* exibir o botão como um elemento em linha */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 40px 250px; /* margem entre os botões */
+    cursor: pointer; /* mudar o cursor quando passar o mouse */
+  
+  }
